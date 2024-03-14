@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="resep.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="content">
+          <span class="logo">LOGO</span>
+          <ul class="list-navbar">
+            <li><a href="">Resep</a></li>
+            <li><a href="">Info Penulis</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="resep">
+      <div class="container">
+        <h1 class="title">Resep Ayam Goreng Non MSG</h1>
+        <p class="sub-title">
+          Tutorial cara membuat ayam goreng yang sehat dan enak
+        </p>
+        <div class="gambar">
+          <img src="ayamgoreng2.jpeg" alt="" class="ayam" />
+          <img src="ayamgoreng.jpeg" alt="" class="ayam" />
+        </div>
+        <p class="info-image">Gambar ini hanya sebagai contoh</p>
+        <article>
+          <h4 class="title">Bahan Bahan yang dibutuhkan :</h4>
+          <!-- <ol class="bahan">
+            <li>1 ekor ayam</li>
+            <li>1 Bungkus Royco</li>
+            <li>3 buah bawang merah</li>
+            <li>2 buah bawang putih</li>
+            <li>1/2 liter minyak goreng</li>
+          </ol> -->
+          <table border="1" style="border-collapse: collapse">
+            <tr>
+              <th>No</th>
+              <th>Nama Bahan</th>
+              <th>Qty</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Bawang Merah</td>
+              <td>3 Butir</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ayam</td>
+              <td>1 Kg</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Tepung</td>
+              <td>1 Kg</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Royco</td>
+              <td>2 Bungkus</td>
+            </tr>
+          </table>
+          <h4 class="title">Step By Step</h4>
+          <ol class="bahan">
+            <li>Potong potong bawang merah dan bawang putih</li>
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur, quasi!
+            </li>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+              velit ut quaerat quam itaque similique. Perferendis cumque nulla
+              dignissimos odio.
+            </li>
+            <li>lorem ipsum dolor sit amet consectetur adipisicing elit. 30</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              minima praesentium placeat modi aliquam eaque maxime laudantium
+              incidunt totam culpa temporibus dolores magni accusamus vel id
+              nisi enim optio nemo, quod odit aliquid cum distinctio ex
+              repellat! Laboriosam, exercitationem repudiandae deserunt aliquid
+              incidunt quod cumque alias explicabo facilis minima omnis.
+            </li>
+          </ol>
+        </article>
+      </div>
+    </section>
+    <section id="comment">
+      <div class="container">
+        <div class="content-comment">
+          <div class="profile">
+            <img class="img-profile" src="profile.png" alt="" />
+            <div class="title-profile">
+              <h6>Khasbi Syahidin</h6>
+              <p>Fullstack Web Developer</p>
+            </div>
+          </div>
+          <div class="comment">
+            <textarea
+              id="commentInput"
+              name=""
+              id=""
+              placeholder="Tulis Komentar disini"
+            ></textarea>
+            <button type="submit" onclick="addComment()" class="submit">
+              Kirim Komentar
+            </button>
+          </div>
+        </div>
+        <h4>Komentar Teratas :</h4>
+        <div class="example-comment">
+          <!-- <div class="card">
+            <h6 class="title-card">Fatih Abiyyi Arfat</h6>
+            <p class="message">
+              Sangat bermanfaat kak artikelnya!, terimakasih
+            </p>
+          </div> -->
+          <ul id="commentList"></ul>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="content-footer">
+          <div class="about">
+            <div class="logo">
+              <span>LOGO</span>
+            </div>
+            <p class="adress">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="detail">
+            <div class="sosmed">
+              <ul class="list-sosmed">
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twiter</a></li>
+                <li><a href="">Youtube</a></li>
+              </ul>
+            </div>
+            <div class="other">
+              <ul class="list-other">
+                <li><a href="">Bantuan</a></li>
+                <li><a href="">Tentang Kami</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

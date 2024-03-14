@@ -1,0 +1,88 @@
+label {
+    color: white;
+    margin-top: 30px;
+  }
+  form {
+    /* background-color: rgb(198, 215, 210); */
+    /* position: relative; */
+    /* top: 20%;
+    left: 35%; */
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 400px;
+    margin: 130px auto;
+    /* margin-top: px; */
+    overflow: hidden;
+    backdrop-filter: blur(40px);
+    color-scheme: dark;
+    box-shadow: 10px 10px 0px rgba(255, 255, 255, 0.8);
+  }
+  form h2{
+    color: white;
+  }
+  form input{
+    background-color: transparent;
+    color: white;
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color : white;
+    margin-bottom: 10px;
+  }
+  input:focus{
+    border-color: white;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+  }
+  button:hover{
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+  }
+  body{
+    background-image: url("backround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(15px); */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-position: fixed;
+    /* position: fixed; */
+  }
+  button{
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    font-weight: bold;
+  }
+  button:hover{
+    background-color: blue;
+    color: white;
+  }
+
+
+
+
+  /* Responsive */
+
+  @media screen and (max-width: 768px){
+    form {
+      /* background-color: rgb(198, 215, 210); */
+      /* position: relative; */
+      /* top: 20%; */
+      left: 15%; 
+      padding: 20px;
+      width: 250px;
+      margin: 130px auto;
+      
+    }
+  }
