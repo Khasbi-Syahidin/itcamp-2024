@@ -262,7 +262,7 @@ footer{
         margin: 0 15px;
     }
     .content .list-navbar{
-        gap: 9px;
+        gap: 10px;
     }
     .content .list-navbar li a{
         /* visibility: hidden; */
