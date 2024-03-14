@@ -258,8 +258,12 @@ footer{
         margin: 0 15px;
     }
     .content .list-navbar{
-        visibility: hidden;
-        position: absolute;
+        gap: 9px;
+    }
+    .content .list-navbar li a{
+        /* visibility: hidden; */
+        /* position: absolute; */
+        font-size: 10px;
     }
     
 
